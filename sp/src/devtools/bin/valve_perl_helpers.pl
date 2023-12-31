@@ -333,7 +333,7 @@ sub LoadShaderListFile_GetShaderType
 	{
 		$shadertype = "psh";
 	}
-	elsif( $shadername =~ m/\.fxc/i )
+	elsif( $shadername =~ m/\.fx/i )
 	{
 		$shadertype = "fxc";
 	}
@@ -387,7 +387,7 @@ sub LoadShaderListFile
 		$line =~ s/^\s*//;		# trim leading whitespace
 		$line =~ s/\s*$//;		# trim trailing whitespace
 		next if( $line =~ m/^\s*$/ );
-		if( $line =~ m/\.fxc/ || $line =~ m/\.vsh/ || $line =~ m/\.psh/ )
+		if( $line =~ m/\.fx/ || $line =~ m/\.vsh/ || $line =~ m/\.psh/ )
 		{
 			my $shaderbase = &LoadShaderListFile_GetShaderBase( $line );
 			

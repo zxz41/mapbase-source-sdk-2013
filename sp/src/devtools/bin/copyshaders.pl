@@ -97,7 +97,7 @@ while( $src = <TXTFILE> )
 	# where the binary vcs file is
 	my $spath = "";
 
-	if ( $shadersrcfilename =~ m@\.fxc@i )
+	if ( $shadersrcfilename =~ m@\.fx@i )
 	{
 		$spath = "shaders\\fxc\\";
 	}
@@ -134,7 +134,7 @@ while( $src = <TXTFILE> )
 	# Open for edit or add if different than what is in perforce already.
 	if( !$dstexists || ( $srcmodtime != $dstmodtime ) )
 	{
-		if ( $srcexists && $shadersrcfilename =~ m@\.fxc@i )
+		if ( $srcexists && $shadersrcfilename =~ m@\.fx@i )
 		{
 			# Get the CRC for the source file.
 			my $srccode = ReadInputFileWithIncludes( $shadersrcfilename );

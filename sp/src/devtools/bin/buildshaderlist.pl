@@ -8,7 +8,7 @@ open FILE, ">__tmpshaderlist.txt";
 
 foreach $arg (@ARGV)
 {
-	if( $arg =~ m/\.fxc$/i || $arg =~ m/\.vsh$/i || $arg =~ m/\.psh$/i )
+	if( $arg =~ m/\.fx$/i || $arg =~ m/\.vsh$/i || $arg =~ m/\.psh$/i )
 	{	
 		print $arg . "\n";
 		print FILE $arg . "\n";

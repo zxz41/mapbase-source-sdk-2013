@@ -14,7 +14,7 @@ sub GetShaderType
 	{
 		$shadertype = "psh";
 	}
-	elsif( $shadername =~ m/\.fxc/i )
+	elsif( $shadername =~ m/\.fx/i )
 	{
 		$shadertype = "fxc";
 	}
@@ -50,7 +50,7 @@ sub GetShaderType
 	{
 		$shadertype = "psh";
 	}
-	elsif( $shadername =~ m/\.fxc/i )
+	elsif( $shadername =~ m/\.fx/i )
 	{
 		$shadertype = "fxc";
 	}
