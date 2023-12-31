@@ -78,7 +78,7 @@ sub WriteDynamicBoolExpression
 sub WriteDynamicHelperClasses
 {
 	local( $basename ) = $fxc_filename;
-	$basename =~ s/\.fxc//i;
+	$basename =~ s/\.fx//i;
 	$basename =~ tr/A-Z/a-z/;
 	local( $classname ) = $basename . "_Dynamic_Index";
 	push @outputHeader, "class $classname\n";
@@ -157,7 +157,7 @@ sub WriteDynamicHelperClasses
 sub WriteStaticHelperClasses
 {
 	local( $basename ) = $fxc_filename;
-	$basename =~ s/\.fxc//i;
+	$basename =~ s/\.fx//i;
 	$basename =~ tr/A-Z/a-z/;
 	local( $classname ) = $basename . "_Static_Index";
 	push @outputHeader, "class $classname\n";

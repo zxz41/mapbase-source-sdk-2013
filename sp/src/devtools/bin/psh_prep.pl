@@ -192,7 +192,7 @@ for( $shaderCombo = 0; $shaderCombo < $numCombos; $shaderCombo++ )
 	push @outputHeader, @hdr;
 }
 
-$basename =~ s/\.fxc//gi;
+$basename =~ s/\.fx//gi;
 push @outputHeader, "static PrecompiledShaderByteCode_t " . $basename . "_pixel_shaders[" . $numCombos . "] = \n";
 push @outputHeader, "{\n";
 local( $j );
