@@ -24,8 +24,10 @@ vpc_osx binary
 *.vbsp text
 *.proto text
 *.inc text
+*.fx text
 *.fxc text
 *.vsh text
+*.fxh text
 *.lst text
 *.mm text
 *.cfg text
