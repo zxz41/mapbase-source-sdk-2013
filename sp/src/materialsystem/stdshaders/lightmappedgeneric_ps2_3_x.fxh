@@ -47,9 +47,9 @@
 
 #define USE_32BIT_LIGHTMAPS_ON_360 //uncomment to use 32bit lightmaps, be sure to keep this in sync with the same #define in materialsystem/cmatlightmaps.cpp
 
-#include "common_ps_fxc.h"
-#include "common_flashlight_fxc.h"
-#include "common_lightmappedgeneric_fxc.h"
+#include "common_ps_fxc.fxh"
+#include "common_flashlight_fxc.fxh"
+#include "common_lightmappedgeneric_fxc.fxh"
 
 #if SEAMLESS
 #define USE_FAST_PATH 1
@@ -246,7 +246,7 @@ HALF4 main( PS_INPUT i ) : COLOR
 
 #if BASETEXTURETRANSFORM2
 	// Blixibon - Simpler version of GetBaseTextureAndNormal() that supports $basetexturetransform2
-	// (make this its own function in common_lightmappedgeneric_fxc.h if this becomes more widespread)
+	// (make this its own function in common_lightmappedgeneric_fxc.fxh if this becomes more widespread)
 	// 
 	// Also, not sure where else to put this, but we're using an entire BASETEXTURETRANSFORM2 combo
 	// because in DX9, $basetexture2 would update from the original $basetexturetransform, so

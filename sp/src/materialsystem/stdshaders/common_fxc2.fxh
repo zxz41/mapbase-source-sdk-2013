@@ -9,7 +9,7 @@
 #define COMMON_FXC2_H_
 
 // This file is here so you can add new utility functions without
-// changing common_fxc.h and causing a recompile of the entire universe.
+// changing common_fxc.fxh and causing a recompile of the entire universe.
 
 float LinearToMonochrome ( float3 r )
 {

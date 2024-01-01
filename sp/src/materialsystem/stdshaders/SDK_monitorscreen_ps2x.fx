@@ -12,7 +12,7 @@
 #endif
 
 #include "shader_constant_register_map.h"
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 sampler BaseTextureSampler	: register( s0 );
 sampler SecondaryTextureSampler	: register( s1 );

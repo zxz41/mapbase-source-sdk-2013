@@ -62,8 +62,8 @@
 // Meaningless combinations
 // SKIP: $NORMALMAPALPHAENVMAPMASK && !$CUBEMAP
 
-#include "common_flashlight_fxc.h"
-#include "common_vertexlitgeneric_dx9.h"
+#include "common_flashlight_fxc.fxh"
+#include "common_vertexlitgeneric_dx9.fxh"
 
 const float4 g_EnvmapTint_TintReplaceFactor		: register( c0 );
 const float4 g_DiffuseModulation				: register( c1 );

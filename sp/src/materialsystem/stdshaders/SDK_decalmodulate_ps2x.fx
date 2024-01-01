@@ -18,8 +18,8 @@
 // SKIP: ( $FLASHLIGHT == 0 ) && ( $FLASHLIGHTDEPTHFILTERMODE != 0 ) [ps20b]
 // SKIP: ( $FLASHLIGHT == 0 ) && ( $FLASHLIGHTDEPTHFILTERMODE != 0 ) [ps30]
 
-#include "common_ps_fxc.h"
-#include "common_flashlight_fxc.h"
+#include "common_ps_fxc.fxh"
+#include "common_flashlight_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 sampler TexSampler	: register( s0 );

@@ -8,7 +8,7 @@
 #ifndef COMMON_FLASHLIGHT_FXC_H_
 #define COMMON_FLASHLIGHT_FXC_H_
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 #if defined(SHADER_MODEL_PS_3_0)
 #define NEW_SHADOW_FILTERS // Comment if you want to enable retail shadow filter.

@@ -8,14 +8,14 @@
 // DYNAMIC: "WRITE_DEPTH_TO_DESTALPHA"	"0..0"		[ps20]
 // DYNAMIC: "PIXELFOGTYPE"				"0..1"
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 float4 g_FogParams						: register( c0 );
 float3 g_EyePos							: register( c1 );
 
 // VS_OUTPUT in a common file.
 #define PIXELSHADER
-#include "common_splinerope_fxc.h"
+#include "common_splinerope_fxc.fxh"
 
 sampler BaseTextureSampler	: register( s0 );
 sampler NormalSampler		: register( s1 );

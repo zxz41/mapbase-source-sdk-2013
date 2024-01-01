@@ -14,7 +14,7 @@
 
 // SKIP: ( $REFRACT || $CORECOLORTEXTURE ) && $CUBEMAP
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 sampler RefractSampler	: register( s2 );
 sampler NormalSampler	: register( s3 );

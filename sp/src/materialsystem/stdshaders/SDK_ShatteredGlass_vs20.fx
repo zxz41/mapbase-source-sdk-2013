@@ -1,7 +1,7 @@
 //	STATIC: "ENVMAP_MASK"			"0..1"
 
 //	DYNAMIC: "DOWATERFOG"				"0..1"
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 static const int g_FogType					= DOWATERFOG;
 static const bool g_UseSeparateEnvmapMask	= ENVMAP_MASK;

@@ -4,7 +4,7 @@
 // STATIC: "CONVERT_TO_SRGB" "0..0"	[= 0] [XBOX]
 
 // Includes =======================================================================================
-#include "common_vertexlitgeneric_dx9.h"
+#include "common_vertexlitgeneric_dx9.fxh"
 
 // Texture Samplers ===============================================================================
 sampler g_tInnerSampler		: register( s0 );

@@ -8,7 +8,7 @@
 #ifndef COMMON_FXC_H_
 #define COMMON_FXC_H_
 
-#include "common_pragmas.h"
+#include "common_pragmas.fxh"
 #include "common_hlsl_cpp_consts.h"
 
 #ifdef NV3X

@@ -40,8 +40,8 @@
 
 
 #define HDRTYPE HDR_TYPE_NONE
-#include "common_flashlight_fxc.h"
-#include "common_ps_fxc.h"
+#include "common_flashlight_fxc.fxh"
+#include "common_ps_fxc.fxh"
 
 const HALF4 g_SelfIllumTint						: register( c7 );
 static const HALF g_OverbrightFactor = 2.0f;

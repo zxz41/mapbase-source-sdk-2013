@@ -65,7 +65,7 @@
 
 
 
-#include "common_flashlight_fxc.h"
+#include "common_flashlight_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 const float4 g_SelfIllumTint_and_DetailBlendFactor	: register( PSREG_SELFILLUMTINT );

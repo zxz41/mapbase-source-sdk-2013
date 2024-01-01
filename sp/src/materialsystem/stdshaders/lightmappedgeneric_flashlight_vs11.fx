@@ -9,7 +9,7 @@
 //	STATIC: "VERTEXCOLOR"			"0..1"
 //	DYNAMIC: "DOWATERFOG"			"0..1"
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 const float3 g_FlashlightPos					: register( SHADER_SPECIFIC_CONST_0 );
 const float4x4 g_FlashlightWorldToTexture		: register( SHADER_SPECIFIC_CONST_1 );

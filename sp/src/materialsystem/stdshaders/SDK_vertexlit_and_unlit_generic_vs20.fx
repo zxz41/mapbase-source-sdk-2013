@@ -27,7 +27,7 @@
 // SKIP: ($SEPARATE_DETAIL_UVS) && ($SEAMLESS_DETAIL)
 // SKIP: ($DONT_GAMMA_CONVERT_VERTEX_COLOR && ( ! $VERTEXCOLOR ) )
 // SKIP: ( $TREESWAY ) && ( $SEAMLESS_DETAIL || $SEAMLESS_BASE )
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
  
 static const bool g_bSkinning		= SKINNING ? true : false;
 static const int  g_FogType			= DOWATERFOG;
@@ -78,7 +78,7 @@ const float4 g_vMiscParams4					: register( SHADER_SPECIFIC_CONST_9 );
 
 #define g_flWindSpeedLerpStart cDetailTexCoordTransform[0].x
 #define g_flWindSpeedLerpEnd cDetailTexCoordTransform[0].y
-#include "tree_sway.h"
+#include "tree_sway.fxh"
 #endif
 
 #if defined( SHADER_MODEL_VS_3_0 ) && SM30_VERTEXID

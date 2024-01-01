@@ -1,8 +1,8 @@
 //========== Copyright (c) Valve Corporation, All rights reserved. ==========//
 // DYNAMIC: "DOWATERFOG"	"0..1"
 
-#include "common_vs_fxc.h"
-#include "spline_fxc.h"
+#include "common_vs_fxc.fxh"
+#include "spline_fxc.fxh"
 
 const float4x3 cModelView			: register(SHADER_SPECIFIC_CONST_0);
 const float4x4 cProj				: register(SHADER_SPECIFIC_CONST_3);
@@ -20,7 +20,7 @@ struct VS_INPUT
 };
 
 // VS_OUTPUT in a common file.
-#include "common_splinerope_fxc.h"
+#include "common_splinerope_fxc.fxh"
 
 #define P0 (v.vSplinePt0)
 #define P1 (v.vSplinePt1)

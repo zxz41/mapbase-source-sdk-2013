@@ -15,7 +15,7 @@
 // DYNAMIC: "FLASHLIGHTSHADOWS"			"0..1"	[ps20b]
 // DYNAMIC: "FLASHLIGHTSHADOWS"			"0..1"	[ps30]
 
-#include "common_flashlight_fxc.h"
+#include "common_flashlight_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 sampler BaseTextureSampler					: register( s0 );

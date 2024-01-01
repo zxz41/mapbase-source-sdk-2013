@@ -7,7 +7,7 @@
 //	DYNAMIC: "SKINNING"				"0..1"
 //  DYNAMIC: "MORPHING"				"0..1"  [vs30]
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 static const bool g_bSkinning = SKINNING ? true : false;
 
@@ -49,7 +49,7 @@ sampler2D morphSampler : register( D3DVERTEXTEXTURESAMPLER0, s0 );
 	#define g_flWindSpeedLerpStart	g_vTreeSwayParams4.x
 	#define g_flWindSpeedLerpEnd	g_vTreeSwayParams4.y
 	
-	#include "tree_sway.h"
+	#include "tree_sway.fxh"
 #endif
 
 struct VS_INPUT

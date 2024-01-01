@@ -5,7 +5,7 @@
 
 // SKIP: $PARALLAXCORRECT [ps20]
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 sampler EnvmapSampler		: register( s0 );

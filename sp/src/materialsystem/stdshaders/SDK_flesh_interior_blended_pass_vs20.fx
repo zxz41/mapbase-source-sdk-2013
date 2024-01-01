@@ -14,7 +14,7 @@
 // SKIP: $USE_STATIC_CONTROL_FLOW && ( $NUM_LIGHTS > 0 ) [vs20]
 
 // Includes
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 // Globals
 static const int  g_iFogType		= DOWATERFOG;

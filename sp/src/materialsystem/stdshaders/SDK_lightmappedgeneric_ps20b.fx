@@ -47,5 +47,5 @@
 
 //  SKIP: $PARALLAXCORRECT && !$CUBEMAP
 
-#include "lightmappedgeneric_ps2_3_x.h"
+#include "lightmappedgeneric_ps2_3_x.fxh"
 

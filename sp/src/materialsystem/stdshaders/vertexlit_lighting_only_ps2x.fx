@@ -10,7 +10,7 @@
 // DYNAMIC: "NUM_LIGHTS"		"0..4"	[ps20b]
 
 #define HDRTYPE HDR_TYPE_NONE
-#include "common_vertexlitgeneric_dx9.h"
+#include "common_vertexlitgeneric_dx9.fxh"
 
 const float4 g_OverbrightFactor		: register( c4 );
 const float3 cAmbientCube[6]		: register( c6 );

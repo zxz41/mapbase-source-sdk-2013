@@ -9,7 +9,7 @@
 // DYNAMIC: "WRITE_DEPTH_TO_DESTALPHA"  "0..1"	[ps30]
 // DYNAMIC: "PIXELFOGTYPE"				"0..1"
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 sampler BaseTextureSampler			: register( s0 );

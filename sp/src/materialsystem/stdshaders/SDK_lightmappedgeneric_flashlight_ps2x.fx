@@ -30,8 +30,8 @@
 // SKIP: $BASETEXTURETRANSFORM2 && $PHONG
 
 #include "shader_constant_register_map.h"
-#include "common_flashlight_fxc.h"
-#include "common_lightmappedgeneric_fxc.h"
+#include "common_flashlight_fxc.fxh"
+#include "common_lightmappedgeneric_fxc.fxh"
 
 const float4 g_vShadowTweaks				: register( PSREG_ENVMAP_TINT__SHADOW_TWEAKS );
 const float4 g_FogParams					: register( PSREG_FOG_PARAMS );
@@ -182,7 +182,7 @@ float4 main( PS_INPUT i ) : COLOR
 
 #if BASETEXTURETRANSFORM2
 	// Blixibon - Simpler version of GetBaseTextureAndNormal() that supports $basetexturetransform2
-	// (This is duplicated in the original shader, but make this its own function in common_lightmappedgeneric_fxc.h if this becomes more widespread)
+	// (This is duplicated in the original shader, but make this its own function in common_lightmappedgeneric_fxc.fxh if this becomes more widespread)
 	baseColor = tex2D( BaseTextureSampler, baseTexCoords.xy );
 	baseColor2 = tex2D( BaseTextureSampler2, i.baseTexCoord.wz );
 	if ( bBump )

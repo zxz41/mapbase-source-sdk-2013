@@ -4,7 +4,7 @@
 //	DYNAMIC: "DOWATERFOG"			"0..1"
 //	DYNAMIC: "SKINNING"				"0..1"
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 static const bool g_bSkinning		= SKINNING ? true : false;
 static const int  g_FogType			= DOWATERFOG;

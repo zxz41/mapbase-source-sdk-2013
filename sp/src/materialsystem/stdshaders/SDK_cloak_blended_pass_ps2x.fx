@@ -6,7 +6,7 @@
 // STATIC: "BUMPMAP" "0..1"
 
 // Includes =======================================================================================
-#include "common_vertexlitgeneric_dx9.h"
+#include "common_vertexlitgeneric_dx9.fxh"
 
 // Texture Samplers ===============================================================================
 sampler g_tRefractionSampler		: register( s0 );

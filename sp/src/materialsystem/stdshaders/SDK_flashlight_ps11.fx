@@ -7,7 +7,7 @@
 //	STATIC: "NORMALMAP"				"0..1"
 //	STATIC: "NOCULL"				"0..1"
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 sampler SpotSampler					: register( s0 );
 sampler BaseTextureSampler			: register( s1 );

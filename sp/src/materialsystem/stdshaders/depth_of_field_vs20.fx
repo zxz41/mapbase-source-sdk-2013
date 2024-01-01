@@ -1,7 +1,7 @@
 //========== Copyright (c) Valve Corporation, All rights reserved. ==========//
 
 // Includes =======================================================================================
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 // Input values ===================================================================================
 struct VS_INPUT

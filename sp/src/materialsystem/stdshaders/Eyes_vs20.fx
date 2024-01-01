@@ -22,7 +22,7 @@
 // If using static control flow on Direct3D, we should use the NUM_LIGHTS=0 combo
 //  SKIP: $USE_STATIC_CONTROL_FLOW && ( $NUM_LIGHTS > 0 ) [vs20]
 
-#include "vortwarp_vs20_helper.h"
+#include "vortwarp_vs20_helper.fxh"
 
 static const int  g_bSkinning		= SKINNING ? true : false;
 static const int  g_FogType			= DOWATERFOG;

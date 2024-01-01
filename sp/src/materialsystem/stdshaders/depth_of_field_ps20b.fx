@@ -3,7 +3,7 @@
 // DYNAMIC: "QUALITY"	"0..3"
 
 // Includes =======================================================================================
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 // Texture Samplers ===============================================================================
 sampler g_tFullFB	: register( s0 );

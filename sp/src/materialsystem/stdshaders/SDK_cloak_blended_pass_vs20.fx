@@ -7,7 +7,7 @@
 // DYNAMIC: "MORPHING"					"0..1" [vs30]
 
 // Includes
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 // Globals
 static const bool g_bSkinning		= SKINNING ? true : false;

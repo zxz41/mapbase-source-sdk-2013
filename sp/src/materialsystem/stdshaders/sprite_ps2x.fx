@@ -9,7 +9,7 @@
 // DYNAMIC: "HDRENABLED"			"0..1"
 // DYNAMIC: "PIXELFOGTYPE"			"0..1"
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 #include "shader_constant_register_map.h"
 
 const HALF4 g_Color					: register( c0 );

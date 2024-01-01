@@ -13,7 +13,7 @@
 
 // DYNAMIC: "MORPHING"				"0..1" [vs30] [ = pShaderAPI->IsHWMorphingEnabled() ]
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
  
 static const bool g_bSkinning		= SKINNING ? true : false;
 static const int  g_FogType			= DOWATERFOG;

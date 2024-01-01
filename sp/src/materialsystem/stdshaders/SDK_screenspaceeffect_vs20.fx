@@ -2,7 +2,7 @@
 
 // STATIC: "X360APPCHOOSER" "0..1" [= 0]
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 struct VS_INPUT
 {

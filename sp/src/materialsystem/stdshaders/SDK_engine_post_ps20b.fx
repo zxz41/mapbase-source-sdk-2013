@@ -30,7 +30,7 @@
 // SKIP: ( $TOOL_MODE == 0 ) && $TV_GAMMA
 // SKIP: ( $TOOL_MODE == 0 ) && $DESATURATEENABLE
 
-#include "common_ps_fxc.h"
+#include "common_ps_fxc.fxh"
 
 sampler	BaseTextureSampler				: register( s0 );
 sampler	FBTextureSampler				: register( s1 );

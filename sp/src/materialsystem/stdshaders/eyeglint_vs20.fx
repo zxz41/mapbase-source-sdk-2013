@@ -7,7 +7,7 @@
 // $NoKeywords: $
 //===========================================================================//
 
-#include "common_vs_fxc.h"
+#include "common_vs_fxc.fxh"
 
 struct VS_INPUT
 {
