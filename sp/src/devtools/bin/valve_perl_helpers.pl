@@ -377,7 +377,6 @@ sub LoadShaderListFile_GetShaderBase
 		{
 			$shadername =~ s/\.$shadertype//i;
 		}
-		printf("$shadername\n");
 
 		return $shadername;
 	}
