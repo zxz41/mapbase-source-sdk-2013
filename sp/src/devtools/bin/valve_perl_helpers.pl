@@ -367,7 +367,18 @@ sub LoadShaderListFile_GetShaderBase
 	else
 	{
 		my $shadertype = &LoadShaderListFile_GetShaderType( $shadername );
-		$shadername =~ s/\.$shadertype//i;
+		
+		# temphack
+		if ( $shadertype == "fxc" )
+		{
+			$shadername =~ s/\.fx//i;
+		}
+		else
+		{
+			$shadername =~ s/\.$shadertype//i;
+		}
+		printf("$shadername\n");
+
 		return $shadername;
 	}
 }
