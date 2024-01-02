@@ -6,4 +6,4 @@
 
 #define HDRTYPE HDR_TYPE_NONE
 
-#include "eyes_flashlight_inc.fxc"
+#include "eyes_flashlight_inc.fx"

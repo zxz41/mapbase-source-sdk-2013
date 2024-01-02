@@ -12,4 +12,4 @@
 // DYNAMIC: "FLASHLIGHTSHADOWS"			"0..1"	[ps20b]
 // DYNAMIC: "FLASHLIGHTSHADOWS"			"0..1"	[ps30]
 
-#include "eyes_flashlight_inc.fxc"
+#include "eyes_flashlight_inc.fx"
